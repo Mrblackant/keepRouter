@@ -20,4 +20,4 @@ router.beforeEach((to, from, next) => {
 
 })
 
-var getLastUrl=(str,yourStr)=>str.slice(str.lastIndexOf(yourStr))
+var getLastUrl=(str,yourStr)=>str.slice(str.lastIndexOf(yourStr))//取到浏览器出现网址的最后"/"出现的后边的字符
